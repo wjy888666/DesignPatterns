@@ -1,9 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T04:57:31.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="24.6.4" etag="Gon_ijDIwqfLNzu7qV_X" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T07:27:38.344Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="FtcA7wJ03plowG2yIbQY" version="24.6.4" type="github">
   <diagram name="第 1 页" id="GOTWjWaWPx1nvQpMh8TC">
-    <mxGraphModel>
+    <mxGraphModel dx="1018" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="222" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="-1Fb4ExeyZdDaXRtTaiA-3" target="-1Fb4ExeyZdDaXRtTaiA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-35" value="实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="-1Fb4ExeyZdDaXRtTaiA-23">
+          <mxGeometry x="-0.1871" y="1" relative="1" as="geometry">
+            <mxPoint x="-5" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-3" value="Adapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="335" y="370" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-4" value="// 对现有接口进行调整" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-1Fb4ExeyZdDaXRtTaiA-3">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-6" value="实现客户需求接口()&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+chargeBy220V&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-1Fb4ExeyZdDaXRtTaiA-3">
+          <mxGeometry y="52" width="160" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-8" value="&lt;span style=&quot;text-wrap: wrap;&quot;&gt;«interface»&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;b style=&quot;text-wrap: wrap;&quot;&gt;Target&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;strokeWidth=0;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="222" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-9" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;// 客户需求接口()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+chargeBy220V()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;fontStyle=0;horizontal=1;verticalAlign=middle;spacingTop=0;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="262" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-10" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-11" value="&lt;span style=&quot;text-wrap: wrap;&quot;&gt;«interface»&lt;/span&gt;&lt;br style=&quot;text-wrap: wrap;&quot;&gt;&lt;b style=&quot;text-wrap: wrap;&quot;&gt;Adaptee&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;opacity=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-12" value="现有接口()&lt;div&gt;+chargeBy110V()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-1Fb4ExeyZdDaXRtTaiA-17" target="-1Fb4ExeyZdDaXRtTaiA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-17" value="Client" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="170" y="398" width="60" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-19" value="" style="line;strokeWidth=1;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#9673a6;" vertex="1" parent="-1Fb4ExeyZdDaXRtTaiA-17">
+          <mxGeometry y="26" width="60" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-29" value="AmericanCharger" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="212" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-30" value="// 实现现有接口" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-1Fb4ExeyZdDaXRtTaiA-29">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-31" value="实现现有接口()&lt;div&gt;+chargeBy110V&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-1Fb4ExeyZdDaXRtTaiA-29">
+          <mxGeometry y="52" width="160" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;entryX=0.46;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-1Fb4ExeyZdDaXRtTaiA-29" target="-1Fb4ExeyZdDaXRtTaiA-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="558.7338129496404" y="410" as="sourcePoint" />
+            <mxPoint x="489.7338129496404" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-36" value="实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="-1Fb4ExeyZdDaXRtTaiA-33">
+          <mxGeometry x="-0.1254" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.469;entryY=0.978;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" edge="1" parent="1" source="-1Fb4ExeyZdDaXRtTaiA-3" target="-1Fb4ExeyZdDaXRtTaiA-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-37" value="继承" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="-1Fb4ExeyZdDaXRtTaiA-34">
+          <mxGeometry x="-0.142" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-40" value="&lt;div style=&quot;color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; white-space: pre;&quot;&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;interface &lt;/span&gt;Target{&lt;br&gt;    &lt;span style=&quot;color:#cc7832;&quot;&gt;void &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;chargeBy220V&lt;/span&gt;()&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;}&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=#000000;align=left;fontStyle=1;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-42" value="&lt;div style=&quot;color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt; white-space: pre;&quot;&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;interface &lt;/span&gt;Adaptee{&lt;br&gt;    &lt;span style=&quot;color:#cc7832;&quot;&gt;void &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;chargeBy110V&lt;/span&gt;()&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=#000000;align=left;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="90" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-43" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.0pt;white-space:pre;&quot;&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;class &lt;/span&gt;AmericanCharger &lt;span style=&quot;color:#cc7832;&quot;&gt;implements &lt;/span&gt;Adaptee{&lt;br&gt;    &lt;span style=&quot;color:#bbb529;&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;public void &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;chargeBy110V&lt;/span&gt;() {&lt;br&gt;        System.&lt;span style=&quot;color:#9876aa;font-style:italic;&quot;&gt;out&lt;/span&gt;.println(&lt;span style=&quot;color:#6a8759;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color:#6a8759;font-family:&#39;宋体&#39;,monospace;&quot;&gt;美国供电器，为您服务，正在给您充&lt;/span&gt;&lt;span style=&quot;color:#6a8759;&quot;&gt; 110V &lt;/span&gt;&lt;span style=&quot;color:#6a8759;font-family:&#39;宋体&#39;,monospace;&quot;&gt;电压&lt;/span&gt;&lt;span style=&quot;color:#6a8759;&quot;&gt;&quot;&lt;/span&gt;)&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;    &lt;/span&gt;}&lt;br&gt;}&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="630" y="207" width="470" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-44" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.0pt;white-space:pre;&quot;&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;class &lt;/span&gt;Adapter &lt;span style=&quot;color:#cc7832;&quot;&gt;extends &lt;/span&gt;AmericanCharger &lt;span style=&quot;color:#cc7832;&quot;&gt;implements &lt;/span&gt;Target{&lt;br&gt;    &lt;span style=&quot;color:#bbb529;&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;public void &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;chargeBy220V&lt;/span&gt;() {&lt;br&gt;        &lt;span style=&quot;color:#cc7832;&quot;&gt;super&lt;/span&gt;.chargeBy110V()&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;        &lt;/span&gt;System.&lt;span style=&quot;color:#9876aa;font-style:italic;&quot;&gt;out&lt;/span&gt;.println(&lt;span style=&quot;color:#6a8759;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color:#6a8759;font-family:&#39;宋体&#39;,monospace;&quot;&gt;再加&lt;/span&gt;&lt;span style=&quot;color:#6a8759;&quot;&gt; 110V,&lt;/span&gt;&lt;span style=&quot;color:#6a8759;font-family:&#39;宋体&#39;,monospace;&quot;&gt;现在给您充&lt;/span&gt;&lt;span style=&quot;color:#6a8759;&quot;&gt; 220V &lt;/span&gt;&lt;span style=&quot;color:#6a8759;font-family:&#39;宋体&#39;,monospace;&quot;&gt;电压！！&lt;/span&gt;&lt;span style=&quot;color:#6a8759;&quot;&gt;&quot;&lt;/span&gt;)&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;    &lt;/span&gt;}&lt;br&gt;}&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="525" y="440" width="420" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-45" value="&lt;div style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.0pt;white-space:pre;&quot;&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;public class &lt;/span&gt;Client {&lt;br&gt;    &lt;span style=&quot;color:#cc7832;&quot;&gt;public static void &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;main&lt;/span&gt;(String[] args) {&lt;br&gt;        &lt;span style=&quot;color:#cc7832;&quot;&gt;new &lt;/span&gt;Adapter().chargeBy220V()&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;    &lt;/span&gt;}&lt;br&gt;}&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="10" y="440" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-46" value="Client" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="70" y="690" width="60" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Fb4ExeyZdDaXRtTaiA-47" value="" style="line;strokeWidth=1;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#9673a6;" vertex="1" parent="-1Fb4ExeyZdDaXRtTaiA-46">
+          <mxGeometry y="26" width="60" height="8" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
